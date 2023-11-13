@@ -73,7 +73,7 @@ function processaCadastroUsuario(req, res) {
         </html>
     `;
     res.end(conteudoResposta);
-};
+}
 
 const app = express();
 
